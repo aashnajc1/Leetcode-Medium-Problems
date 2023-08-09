@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
         int n = nums.size();
-        int aagekaindex, peechekaindex;
+        int aagekaindex = -1, peechekaindex = -1;
         if(n==0){
             aagekaindex = -1, peechekaindex = -1;
         }
